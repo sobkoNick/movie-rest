@@ -1,6 +1,6 @@
-package controller;
+package utils;
 
-import sqlConst.SQLConstants;
+import utils.SQLConstants;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

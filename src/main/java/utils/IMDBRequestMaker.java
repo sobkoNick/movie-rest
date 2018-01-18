@@ -1,7 +1,9 @@
+package utils;
+
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import entity.Movie;
+import model.entity.Movie;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
@@ -59,16 +61,20 @@ public class IMDBRequestMaker {
 
     private Movie getMovie(JsonObject rootObj) {
         Movie movie = new Movie();
-        movie.setTitle(rootObj.get("Title").getAsString());
-        movie.setYear(rootObj.get("Year").getAsString());
-        String date = rootObj.get("Released").getAsString();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMM yyyy").withLocale(Locale.ENGLISH);
-        movie.setReleased(LocalDate.parse(date, formatter));
-        movie.setGenre(rootObj.get("Genre").getAsString());
-        movie.setDirector(rootObj.get("Director").getAsString());
-        movie.setActors(rootObj.get("Actors").getAsString());
-        movie.setImdbRating(rootObj.get("imdbRating").getAsDouble());
-        movie.setType(rootObj.get("Type").getAsString());
+        if (rootObj.has("Error")) {
+            movie.setTitle(FilmConstants.MOVIE_NOT_FOUND);
+        } else {
+            movie.setTitle(rootObj.get("Title").getAsString());
+            movie.setYear(rootObj.get("Year").getAsString());
+            String date = rootObj.get("Released").getAsString();
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd MMM yyyy").withLocale(Locale.ENGLISH);
+            movie.setReleased(LocalDate.parse(date, formatter));
+            movie.setGenre(rootObj.get("Genre").getAsString());
+            movie.setDirector(rootObj.get("Director").getAsString());
+            movie.setActors(rootObj.get("Actors").getAsString());
+            movie.setImdbRating(rootObj.get("imdbRating").getAsDouble());
+            movie.setType(rootObj.get("Type").getAsString());
+        }
         return movie;
     }
 }
