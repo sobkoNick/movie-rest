@@ -13,19 +13,24 @@ import java.util.List;
  */
 public class MovieDao {
         public void addMovie(Movie movie) throws SQLException {
+            System.out.println("movie = " + movie);
             try (Connection connection = DriverManager.getConnection(SQLConstants.URL, SQLConstants.USER, SQLConstants.PASSWORD)) {
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO movie(title, year, released, genre, " +
-                        "director, actors, imdbRating, type) VALUES " +
-                        "(?,?,?,?,?,?,?,?)");
-                preparedStatement.setString(1, movie.getTitle());
+                        "director, actors, imdbRating, type, myRating, kinopoiskRating, budget, earnings) VALUES " +
+                        "(?,?,?,?,?,?,?,?,?,?,?,?)");
+                preparedStatement.setString(1, movie.getTitle().length() >= 40 ? movie.getTitle().substring(0, 35) : movie.getTitle());
                 preparedStatement.setString(2, movie.getYear());
                 preparedStatement.setDate(3, Date.valueOf(movie.getReleased()));
                 preparedStatement.setString(4, movie.getGenre());
                 preparedStatement.setString(5, movie.getDirector());
-                preparedStatement.setString(6, movie.getActors().substring(0, 59));
+                preparedStatement.setString(6, movie.getActors().contains("no info") ? "no info" : movie.getActors().substring(0, 60));
                 preparedStatement.setDouble(7, movie.getImdbRating());
                 preparedStatement.setString(8, movie.getType());
+                preparedStatement.setDouble(9, movie.getMyRating());
+                preparedStatement.setDouble(10, movie.getKinopoiskRating());
+                preparedStatement.setInt(11, movie.getBudget());
+                preparedStatement.setInt(12, movie.getEarnings());
                 preparedStatement.execute();
             }
         }

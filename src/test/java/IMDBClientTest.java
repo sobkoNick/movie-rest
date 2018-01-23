@@ -1,5 +1,6 @@
 import teststeps.DataBaseSteps;
 import teststeps.ImdbSteps;
+import utils.ExcelParser;
 import utils.IMDBRequestMaker;
 import utils.SettingUpDB;
 import model.entity.Movie;
@@ -8,6 +9,9 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import model.serviceimpl.MovieServiceImpl;
+
+import java.io.IOException;
+import java.util.List;
 
 public class IMDBClientTest {
 
@@ -25,13 +29,18 @@ public class IMDBClientTest {
     }
 
     @Test
-    public void gettingDunkirkDataFromIMDB_ShouldPass() throws ClassNotFoundException {
+    public void gettingDunkirkDataFromIMDB_ShouldPass() throws ClassNotFoundException, IOException {
         SettingUpDB.setUp();
         LOGGER.info("Test imdb for Dunkirk film");
         ImdbSteps imdbSteps = new ImdbSteps();
         Movie movie = imdbSteps.getMovieFromIMDB("Dunkirk");
         DataBaseSteps dataBaseSteps = new DataBaseSteps();
         dataBaseSteps.verifyAddingFilmToDB(movie);
+
+        List<Movie> movies = ExcelParser.readMessagesFromXLSXFile("src/main/resources/kinopoisk.data.xlsx", 50);
+        System.out.println("movies = " + movies);
+
+        movies.forEach(dataBaseSteps::verifyAddingFilmToDB);
     }
 
 //    public static void main(String[] argv) {

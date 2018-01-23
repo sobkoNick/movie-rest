@@ -19,4 +19,5 @@ dependencies {
     compile 'com.google.inject:guice:4.1.0'
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
     compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.39'
+    compile 'org.apache.poi:poi-ooxml:3.16'
 }

@@ -13,12 +13,16 @@ public class SQLConstants {
     public static final String CREATE_TABLE_MOVIE = "CREATE TABLE movie (\n" +
             "\tid int PRIMARY KEY AUTO_INCREMENT,\n" +
             "    title varchar(40) not null,\n" +
-            "    year varchar(20) not null,\n" +
+            "    myRating DOUBLE,\n" +
+            "    year varchar(20),\n" +
             "    released DATE,\n" +
             "    genre varchar(40),\n" +
             "    director varchar(40),\n" +
             "    actors varchar(60),\n" +
             "    imdbRating DOUBLE,\n" +
+            "    kinopoiskRating DOUBLE,\n" +
+            "    budget INT,\n" +
+            "    earnings INT,\n" +
             "    type varchar(10)\n" +
             ") default Character set utf8;";
 }

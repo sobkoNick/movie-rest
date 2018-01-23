@@ -74,6 +74,11 @@ public class IMDBRequestMaker {
             movie.setActors(rootObj.get("Actors").getAsString());
             movie.setImdbRating(rootObj.get("imdbRating").getAsDouble());
             movie.setType(rootObj.get("Type").getAsString());
+
+            movie.setEarnings(0);
+            movie.setBudget(0);
+            movie.setMyRating(0.0);
+            movie.setKinopoiskRating(0.0);
         }
         return movie;
     }
