@@ -20,9 +20,16 @@ public class DataBaseSteps {
     }
 
     public void verifyAddingFilmToDB(Movie movie) {
-        LOGGER.info("verifyAddingFilmToDB() " + movie);
+        LOGGER.info("verifyAddingFilmToDB() with movie" + movie.getTitle());
         MovieService movieService = new MovieServiceImpl();
         movieService.addMovie(movie);
         Assert.assertEquals(movieService.getMovieByTitle(movie.getTitle()).getDirector(), movie.getDirector(), "This movie wasnt added to db");
+    }
+
+    public void verifyTotalMovieCountInDB(int expectedCount) {
+        LOGGER.info("verifyTotalMovieCountInDB() with expected count = " + expectedCount);
+        MovieService movieService = new MovieServiceImpl();
+        int actualCount = movieService.getTotalRowsCountFromDB();
+        Assert.assertEquals(actualCount, expectedCount, "DB has more or less values");
     }
 }

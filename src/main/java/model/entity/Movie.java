@@ -70,8 +70,6 @@ public class Movie {
         this.actors = "no info";
         this.imdbRating = 0.0;
         this.type = "no info";
-        this.budget = 0;
-        this.earnings = 0;
     }
 
     public Double getMyRating() {

@@ -54,4 +54,16 @@ public class MovieServiceImpl implements MovieService {
         }
         return new Movie();
     }
+
+    @Override
+    public Integer getTotalRowsCountFromDB() {
+        LOGGER.info("Get total rows count from db");
+        MovieDao movieDao = new MovieDao();
+        try {
+            return movieDao.getTotalRowsCount();
+        } catch (SQLException e) {
+            LOGGER.error(e.getMessage());
+        }
+        return 0;
+    }
 }

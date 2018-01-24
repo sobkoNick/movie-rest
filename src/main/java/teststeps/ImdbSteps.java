@@ -28,6 +28,7 @@ public class ImdbSteps {
     }
 
     public Movie getMovieFromIMDB(String title) {
+        title = title.replace(" ","_");
         Movie movie = imdbRequestMaker.getResultFromJson(imdbRestUrl + title + API_KEY);
         Assert.assertTrue(!movie.getTitle().contains(FilmConstants.MOVIE_NOT_FOUND), "No such movie was found");
         return movie;

@@ -62,6 +62,19 @@ public class MovieDao {
             }
         }
 
+        public Integer getTotalRowsCount() throws SQLException {
+            try (Connection connection = DriverManager.getConnection(SQLConstants.URL, SQLConstants.USER, SQLConstants.PASSWORD)){
+                SettingUpDB.useMovieDB(connection);
+                PreparedStatement preparedStatement = connection.prepareStatement("SELECT COUNT(*) FROM movie;");
+                ResultSet resultSet = preparedStatement.executeQuery();
+                Integer totalCount = 0;
+                while (resultSet.next()) {
+                    totalCount = resultSet.getInt(1);
+                }
+                return totalCount;
+            }
+        }
+
         private Movie getMovieData(ResultSet resultSet) throws SQLException {
             Movie movie = new Movie();
             movie.setTitle(resultSet.getString("title"));

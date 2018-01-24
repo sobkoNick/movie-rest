@@ -12,4 +12,5 @@ public interface MovieService {
     public boolean addMovie(Movie movie);
     public List<Movie> getAllMovies();
     public Movie getMovieByTitle(String title);
+    public Integer getTotalRowsCountFromDB();
 }

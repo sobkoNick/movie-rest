@@ -1,6 +1,7 @@
 package utils;
 
 import model.entity.Movie;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -31,12 +32,14 @@ public class ExcelParser {
         Iterator rows = sheet.rowIterator();
         int counter = 0;
         int rowCounter = 0;
+
+        String title = "";
+        Double myRating = 0.0;
+        Double kinopoiskRating = 0.0;
+        Double budget = 0.0;
+        Double earnings = 0.0;
+
         while (rows.hasNext()) {
-            String title = "";
-            Double myRating = 0.0;
-            Double kinopoiskRating = 0.0;
-            Integer budget = 0;
-            Integer earnings = 0;
             row = (XSSFRow) rows.next();
             if (row.getRowNum() == 0) {
                 continue;
@@ -45,20 +48,21 @@ public class ExcelParser {
             while (cells.hasNext()) {
                 cell = (XSSFCell) cells.next();
                     if (counter == 1) {
+                        cell.setCellType(CellType.STRING);
                         title = cell.getStringCellValue();
                     } else if(counter == 7){
                         myRating = cell.getNumericCellValue();
                     } else if(counter == 8){
                         kinopoiskRating = cell.getNumericCellValue();
                     } else if(counter == 15) {
-                       budget = (int) cell.getNumericCellValue();
+                       budget =  cell.getNumericCellValue();
                     } else  if (counter == 17) {
-                        earnings = (int) cell.getNumericCellValue();
+                        earnings = cell.getNumericCellValue();
                     }
                     ++counter;
             }
             counter = 0;
-            Movie movie = new Movie(title, myRating, kinopoiskRating, budget, earnings);
+            Movie movie = new Movie(title, myRating, kinopoiskRating, budget.intValue(), earnings.intValue());
             movies.add(movie);
             rowCounter++;
             if (rowCounter >= rowsToRead)
