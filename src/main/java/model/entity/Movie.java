@@ -19,6 +19,8 @@ public class Movie {
     Integer budget;
     Integer earnings;
 
+    private final String NO_INFO = "no info";
+
     public Movie() {
     }
 
@@ -63,13 +65,13 @@ public class Movie {
         this.budget = budget;
         this.earnings = earnings;
 
-        this.year = "no info";
+        this.year = NO_INFO;
         this.released = LocalDate.now();
-        this.genre = "no info";
-        this.director = "no info";
-        this.actors = "no info";
+        this.genre = NO_INFO;
+        this.director = NO_INFO;
+        this.actors = NO_INFO;
         this.imdbRating = 0.0;
-        this.type = "no info";
+        this.type = NO_INFO;
     }
 
     public Double getMyRating() {

@@ -62,7 +62,7 @@ public class IMDBRequestMaker {
     private Movie getMovie(JsonObject rootObj) {
         Movie movie = new Movie();
         if (rootObj.has("Error")) {
-            movie.setTitle(FilmConstants.MOVIE_NOT_FOUND);
+            movie.setTitle(Constants.MOVIE_NOT_FOUND);
         } else {
             movie.setTitle(rootObj.get("Title").getAsString());
             movie.setYear(rootObj.get("Year").getAsString());

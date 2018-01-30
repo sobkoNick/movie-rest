@@ -34,7 +34,7 @@ public class IMDBClientTest {
         DataBaseSteps dataBaseSteps = new DataBaseSteps();
         dataBaseSteps.verifyAddingFilmToDB(movie);
 
-        List<Movie> movies = ExcelParser.readMessagesFromXLSXFile("src/main/resources/kinopoisk.data.xlsx", 40);
+        List<Movie> movies = ExcelParser.readMessagesFromXLSXFile(40);
         System.out.println("movies = " + movies);
 
         movies.forEach(dataBaseSteps::verifyAddingFilmToDB);

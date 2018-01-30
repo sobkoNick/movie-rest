@@ -18,11 +18,11 @@ import java.util.stream.Collectors;
 /**
  *
  */
-public class ExcelParser {
-    public static List<Movie> readMessagesFromXLSXFile(String file, int rowsToRead) throws IOException {
+public class ExcelParser implements Constants {
+    public static List<Movie> readMessagesFromXLSXFile(int rowsToRead) throws IOException {
         List<Movie> movies = new ArrayList<>();
 
-        InputStream ExcelFileToRead = new FileInputStream(file);
+        InputStream ExcelFileToRead = new FileInputStream(PATH_TO_EXCEL);
         XSSFWorkbook wb = new XSSFWorkbook(ExcelFileToRead);
 
         XSSFSheet sheet = wb.getSheetAt(0);
@@ -47,16 +47,16 @@ public class ExcelParser {
             Iterator cells = row.cellIterator();
             while (cells.hasNext()) {
                 cell = (XSSFCell) cells.next();
-                    if (counter == 1) {
+                    if (counter == TITLE_INDEX) {
                         cell.setCellType(CellType.STRING);
                         title = cell.getStringCellValue();
-                    } else if(counter == 7){
+                    } else if(counter == MY_RATING_INDEX){
                         myRating = cell.getNumericCellValue();
-                    } else if(counter == 8){
+                    } else if(counter == KINOPOISK_RATING_INDEX){
                         kinopoiskRating = cell.getNumericCellValue();
-                    } else if(counter == 15) {
+                    } else if(counter == BUDGET_INDEX) {
                        budget =  cell.getNumericCellValue();
-                    } else  if (counter == 17) {
+                    } else  if (counter == EARNINGS_INDEX) {
                         earnings = cell.getNumericCellValue();
                     }
                     ++counter;

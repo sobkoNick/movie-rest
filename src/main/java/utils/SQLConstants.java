@@ -3,14 +3,14 @@ package utils;
 /**
  *
  */
-public class SQLConstants {
-    public static final String URL = "jdbc:mysql://localhost/?useUnicode=true&characterEncoding=UTF8";
-    public static final String USER = "root";
-    public static final String PASSWORD = "123";
-    public static final String DROP_DATABASE_IFEXIST = "DROP DATABASE IF EXISTS moviedb;";
-    public static final String CREATE_DATABASE = "CREATE DATABASE moviedb default Character set utf8;";
-    public static final String USE_DATABASE = "use moviedb;";
-    public static final String CREATE_TABLE_MOVIE = "CREATE TABLE movie (\n" +
+public interface SQLConstants {
+    String URL = "jdbc:mysql://localhost/?useUnicode=true&characterEncoding=UTF8";
+    String USER = "root";
+    String PASSWORD = "123";
+    String DROP_DATABASE_IFEXIST = "DROP DATABASE IF EXISTS moviedb;";
+    String CREATE_DATABASE = "CREATE DATABASE moviedb default Character set utf8;";
+    String USE_DATABASE = "use moviedb;";
+    String CREATE_TABLE_MOVIE = "CREATE TABLE movie (\n" +
             "\tid int PRIMARY KEY AUTO_INCREMENT,\n" +
             "    title varchar(40) not null,\n" +
             "    myRating DOUBLE,\n" +

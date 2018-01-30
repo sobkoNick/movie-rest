@@ -10,15 +10,15 @@ import java.sql.Statement;
 /**
  *
  */
-public class SettingUpDB {
+public class SettingUpDB implements SQLConstants {
     public static void setUp() { // 1 transaction
-        try (Connection connection = DriverManager.getConnection(SQLConstants.URL, SQLConstants.USER, SQLConstants.PASSWORD)) {
+        try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
             try {
                 connection.setAutoCommit(false);
-                setDBStatement(connection, SQLConstants.DROP_DATABASE_IFEXIST);
-                setDBStatement(connection, SQLConstants.CREATE_DATABASE);
-                setDBStatement(connection, SQLConstants.USE_DATABASE);
-                setDBStatement(connection, SQLConstants.CREATE_TABLE_MOVIE);
+                setDBStatement(connection, DROP_DATABASE_IFEXIST);
+                setDBStatement(connection, CREATE_DATABASE);
+                setDBStatement(connection, USE_DATABASE);
+                setDBStatement(connection, CREATE_TABLE_MOVIE);
 
                 connection.commit();
             } catch (SQLException e) {
@@ -34,7 +34,7 @@ public class SettingUpDB {
     }
 
     public static void useMovieDB(Connection connection) throws SQLException {
-        setDBStatement(connection, SQLConstants.USE_DATABASE);
+        setDBStatement(connection, USE_DATABASE);
     }
 
     public static void setDBStatement(Connection connection, String sql) throws SQLException {

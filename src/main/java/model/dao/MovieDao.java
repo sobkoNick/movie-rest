@@ -11,10 +11,10 @@ import java.util.List;
 /**
  *
  */
-public class MovieDao {
+public class MovieDao implements SQLConstants {
         public void addMovie(Movie movie) throws SQLException {
             System.out.println("movie = " + movie);
-            try (Connection connection = DriverManager.getConnection(SQLConstants.URL, SQLConstants.USER, SQLConstants.PASSWORD)) {
+            try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO movie(title, year, released, genre, " +
                         "director, actors, imdbRating, type, myRating, kinopoiskRating, budget, earnings) VALUES " +
@@ -36,7 +36,7 @@ public class MovieDao {
         }
 
         public List<Movie> getAllMovies() throws SQLException {
-            try (Connection connection = DriverManager.getConnection(SQLConstants.URL, SQLConstants.USER, SQLConstants.PASSWORD)) {
+            try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("SELECT * from movie;");
                 ResultSet resultSet = preparedStatement.executeQuery();
@@ -49,7 +49,7 @@ public class MovieDao {
         }
 
         public Movie getMovieByName(String title) throws SQLException {
-            try (Connection connection = DriverManager.getConnection(SQLConstants.URL, SQLConstants.USER, SQLConstants.PASSWORD)) {
+            try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("SELECT  * from movie WHERE title = ?");
                 preparedStatement.setString(1, title);
@@ -63,7 +63,7 @@ public class MovieDao {
         }
 
         public Integer getTotalRowsCount() throws SQLException {
-            try (Connection connection = DriverManager.getConnection(SQLConstants.URL, SQLConstants.USER, SQLConstants.PASSWORD)){
+            try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)){
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("SELECT COUNT(*) FROM movie;");
                 ResultSet resultSet = preparedStatement.executeQuery();

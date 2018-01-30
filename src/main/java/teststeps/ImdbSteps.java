@@ -2,15 +2,13 @@ package teststeps;
 
 import model.entity.Movie;
 import org.testng.Assert;
-import utils.FilmConstants;
+import utils.Constants;
 import utils.IMDBRequestMaker;
 
 /**
  *
  */
-public class ImdbSteps {
-    private final String imdbRestUrl = "http://www.omdbapi.com/?t=";
-    private final String API_KEY = "&apikey=ddb21a66";
+public class ImdbSteps implements  Constants{
     IMDBRequestMaker imdbRequestMaker;
 
     public ImdbSteps() {
@@ -19,7 +17,7 @@ public class ImdbSteps {
 
     public void verifyFilmPresenceInImdb(String title, boolean expected) {
         Movie movie = getMovieFromIMDB(title);
-        Assert.assertEquals(!movie.getTitle().contains(FilmConstants.MOVIE_NOT_FOUND), expected);
+        Assert.assertEquals(!movie.getTitle().contains(MOVIE_NOT_FOUND), expected);
     }
 
     public void verifyFilmFromImdb(String title, String expectedDirector) {
@@ -29,8 +27,8 @@ public class ImdbSteps {
 
     public Movie getMovieFromIMDB(String title) {
         title = title.replace(" ","_");
-        Movie movie = imdbRequestMaker.getResultFromJson(imdbRestUrl + title + API_KEY);
-        Assert.assertTrue(!movie.getTitle().contains(FilmConstants.MOVIE_NOT_FOUND), "No such movie was found");
+        Movie movie = imdbRequestMaker.getResultFromJson(IMDB_REST_URL + title + API_KEY);
+        Assert.assertTrue(!movie.getTitle().contains(Constants.MOVIE_NOT_FOUND), "No such movie was found");
         return movie;
     }
 }

@@ -1,0 +1,1119 @@
+2018-01-24 19:46:08,240  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 19:46:09,037  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 19:46:09,115  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 19:46:09,115  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:09,178  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,240  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 19:46:11,240  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,240  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,256  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=0, earnings=0}
+2018-01-24 19:46:11,256  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,272  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,272  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 19:46:11,272  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,287  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,303  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=0, earnings=0}
+2018-01-24 19:46:11,303  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,318  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,334  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=0, earnings=0}
+2018-01-24 19:46:11,334  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,350  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,350  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 19:46:11,350  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,365  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,365  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=0, earnings=0}
+2018-01-24 19:46:11,365  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,381  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,381  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 19:46:11,381  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,397  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,412  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=0, earnings=0}
+2018-01-24 19:46:11,412  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,412  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,428  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=0, earnings=0}
+2018-01-24 19:46:11,428  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,428  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,490  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=0, earnings=0}
+2018-01-24 19:46:11,490  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,537  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,568  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 19:46:11,568  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,647  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,662  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=0, earnings=0}
+2018-01-24 19:46:11,662  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,693  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,709  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=0, earnings=0}
+2018-01-24 19:46:11,709  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,725  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,756  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=0, earnings=0}
+2018-01-24 19:46:11,756  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,772  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,787  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 19:46:11,803  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,803  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,818  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=0, earnings=0}
+2018-01-24 19:46:11,818  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,834  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,834  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=0, earnings=0}
+2018-01-24 19:46:11,834  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,850  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,865  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=0, earnings=0}
+2018-01-24 19:46:11,865  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,865  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,881  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=0, earnings=0}
+2018-01-24 19:46:11,881  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,943  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,959  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 19:46:11,959  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:11,975  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:11,990  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=0, earnings=0}
+2018-01-24 19:46:11,990  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,006  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,006  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 19:46:12,022  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,037  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,037  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=0, earnings=0}
+2018-01-24 19:46:12,037  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,053  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,068  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=0, earnings=0}
+2018-01-24 19:46:12,068  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,084  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,084  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=0, earnings=0}
+2018-01-24 19:46:12,084  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,100  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,115  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=0, earnings=0}
+2018-01-24 19:46:12,115  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,147  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,162  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=0, earnings=0}
+2018-01-24 19:46:12,162  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,162  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,178  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=0, earnings=0}
+2018-01-24 19:46:12,178  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,178  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,193  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=0, earnings=0}
+2018-01-24 19:46:12,193  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,209  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,209  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=0, earnings=0}
+2018-01-24 19:46:12,209  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,240  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,240  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=0, earnings=0}
+2018-01-24 19:46:12,240  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,256  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,256  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gangster Squad', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.013, budget=0, earnings=0}
+2018-01-24 19:46:12,256  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,272  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,272  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='American History X', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.298, budget=0, earnings=0}
+2018-01-24 19:46:12,272  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,287  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,287  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Crazy, Stupid, Love.', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.545, budget=0, earnings=0}
+2018-01-24 19:46:12,287  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,303  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,303  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Drive', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.202, budget=0, earnings=0}
+2018-01-24 19:46:12,303  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,318  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,334  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Stay', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.285, budget=0, earnings=0}
+2018-01-24 19:46:12,334  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,381  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,397  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Thursday', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.875, budget=0, earnings=0}
+2018-01-24 19:46:12,397  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,412  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,428  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Twelve Monkeys', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.791, budget=0, earnings=0}
+2018-01-24 19:46:12,428  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,428  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:46:12,443  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Life', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.48, budget=0, earnings=0}
+2018-01-24 19:46:12,459  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:46:12,506  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:55:24,788  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 19:55:25,520  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 19:55:25,614  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 19:55:25,617  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:55:25,661  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 19:56:42,531  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 19:56:43,063  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 19:56:43,125  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 19:56:43,125  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 19:56:43,156  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:33,291  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:03:34,244  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:03:34,275  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:03:34,275  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:34,291  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,805  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 20:03:35,805  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,805  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,821  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=0, earnings=0}
+2018-01-24 20:03:35,821  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,837  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,837  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:03:35,837  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,852  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,852  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=0, earnings=0}
+2018-01-24 20:03:35,852  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,868  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,884  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=0, earnings=0}
+2018-01-24 20:03:35,884  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,884  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,899  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:03:35,899  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,899  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,915  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=0, earnings=0}
+2018-01-24 20:03:35,915  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,915  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,915  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 20:03:35,915  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,930  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,946  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=0, earnings=0}
+2018-01-24 20:03:35,946  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,962  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,962  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=0, earnings=0}
+2018-01-24 20:03:35,962  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,977  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,977  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=0, earnings=0}
+2018-01-24 20:03:35,977  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:35,993  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:35,993  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 20:03:35,993  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,009  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,009  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=0, earnings=0}
+2018-01-24 20:03:36,009  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,024  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,024  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=0, earnings=0}
+2018-01-24 20:03:36,024  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,040  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,040  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=0, earnings=0}
+2018-01-24 20:03:36,040  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,055  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,055  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 20:03:36,055  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,071  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,087  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=0, earnings=0}
+2018-01-24 20:03:36,087  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,087  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,102  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=0, earnings=0}
+2018-01-24 20:03:36,102  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,102  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,118  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=0, earnings=0}
+2018-01-24 20:03:36,118  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,118  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,118  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=0, earnings=0}
+2018-01-24 20:03:36,134  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,134  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,149  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 20:03:36,149  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,149  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,165  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=0, earnings=0}
+2018-01-24 20:03:36,165  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,180  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,180  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 20:03:36,180  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,196  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,196  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=0, earnings=0}
+2018-01-24 20:03:36,196  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,212  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,212  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=0, earnings=0}
+2018-01-24 20:03:36,212  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,212  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,227  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=0, earnings=0}
+2018-01-24 20:03:36,227  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,227  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,227  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=0, earnings=0}
+2018-01-24 20:03:36,227  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,243  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,243  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=0, earnings=0}
+2018-01-24 20:03:36,243  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,259  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,259  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=0, earnings=0}
+2018-01-24 20:03:36,259  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,274  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,274  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=0, earnings=0}
+2018-01-24 20:03:36,274  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,274  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,321  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=0, earnings=0}
+2018-01-24 20:03:36,321  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,337  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,337  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=0, earnings=0}
+2018-01-24 20:03:36,337  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,337  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,352  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gangster Squad', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.013, budget=0, earnings=0}
+2018-01-24 20:03:36,352  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,352  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,352  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='American History X', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.298, budget=0, earnings=0}
+2018-01-24 20:03:36,352  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,352  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,368  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Crazy, Stupid, Love.', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.545, budget=0, earnings=0}
+2018-01-24 20:03:36,368  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,368  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,368  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Drive', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.202, budget=0, earnings=0}
+2018-01-24 20:03:36,368  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,384  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,384  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Stay', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.285, budget=0, earnings=0}
+2018-01-24 20:03:36,384  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,384  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,384  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Thursday', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.875, budget=0, earnings=0}
+2018-01-24 20:03:36,384  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,399  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,399  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Twelve Monkeys', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.791, budget=0, earnings=0}
+2018-01-24 20:03:36,399  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,399  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:03:36,415  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Life', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.48, budget=0, earnings=0}
+2018-01-24 20:03:36,415  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:03:36,415  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:02,391  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:07:02,970  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:07:03,017  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:07:03,017  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:03,032  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,581  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 20:07:04,581  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,596  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,612  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=0, earnings=0}
+2018-01-24 20:07:04,612  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,612  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,630  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:07:04,630  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,630  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,645  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=0, earnings=0}
+2018-01-24 20:07:04,645  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,645  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,661  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=0, earnings=0}
+2018-01-24 20:07:04,661  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,661  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,676  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:07:04,676  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,676  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,692  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=0, earnings=0}
+2018-01-24 20:07:04,692  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,692  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,708  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 20:07:04,708  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,708  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,723  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=0, earnings=0}
+2018-01-24 20:07:04,723  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,723  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,723  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=0, earnings=0}
+2018-01-24 20:07:04,723  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,739  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,739  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=0, earnings=0}
+2018-01-24 20:07:04,739  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,755  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,755  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 20:07:04,755  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,755  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,770  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=0, earnings=0}
+2018-01-24 20:07:04,770  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,770  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,786  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=0, earnings=0}
+2018-01-24 20:07:04,786  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,786  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,817  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=0, earnings=0}
+2018-01-24 20:07:04,817  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,833  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,833  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 20:07:04,833  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,848  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,848  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=0, earnings=0}
+2018-01-24 20:07:04,848  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,864  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,864  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=0, earnings=0}
+2018-01-24 20:07:04,864  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,880  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,880  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=0, earnings=0}
+2018-01-24 20:07:04,880  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,895  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,895  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=0, earnings=0}
+2018-01-24 20:07:04,895  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,911  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,911  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 20:07:04,911  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,926  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,926  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=0, earnings=0}
+2018-01-24 20:07:04,926  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,942  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,942  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 20:07:04,942  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,942  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,958  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=0, earnings=0}
+2018-01-24 20:07:04,958  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,958  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,973  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=0, earnings=0}
+2018-01-24 20:07:04,973  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,973  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,989  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=0, earnings=0}
+2018-01-24 20:07:04,989  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:04,989  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:04,989  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=0, earnings=0}
+2018-01-24 20:07:04,989  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,005  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,005  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=0, earnings=0}
+2018-01-24 20:07:05,005  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,020  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,020  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=0, earnings=0}
+2018-01-24 20:07:05,020  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,036  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,036  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=0, earnings=0}
+2018-01-24 20:07:05,036  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,051  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,051  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=0, earnings=0}
+2018-01-24 20:07:05,051  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,051  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,067  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=0, earnings=0}
+2018-01-24 20:07:05,067  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,067  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,083  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gangster Squad', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.013, budget=0, earnings=0}
+2018-01-24 20:07:05,083  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,083  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,098  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='American History X', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.298, budget=0, earnings=0}
+2018-01-24 20:07:05,098  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,098  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,098  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Crazy, Stupid, Love.', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.545, budget=0, earnings=0}
+2018-01-24 20:07:05,098  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,114  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,114  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Drive', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.202, budget=0, earnings=0}
+2018-01-24 20:07:05,114  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,130  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,130  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Stay', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.285, budget=0, earnings=0}
+2018-01-24 20:07:05,130  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,130  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,145  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Thursday', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.875, budget=0, earnings=0}
+2018-01-24 20:07:05,145  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,145  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,145  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Twelve Monkeys', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.791, budget=0, earnings=0}
+2018-01-24 20:07:05,145  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,161  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:07:05,161  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Life', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.48, budget=0, earnings=0}
+2018-01-24 20:07:05,161  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:07:05,161  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:08:10,556  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:08:10,986  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:08:11,033  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:08:11,033  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:08:11,049  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:05,385  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:18:06,272  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:18:06,319  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:18:06,319  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:06,335  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:07,957  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 20:18:07,957  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:07,957  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:07,973  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=0, earnings=0}
+2018-01-24 20:18:07,973  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:07,989  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:07,989  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:18:07,989  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,004  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,020  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=0, earnings=0}
+2018-01-24 20:18:08,020  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,020  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,035  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=0, earnings=0}
+2018-01-24 20:18:08,035  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,035  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,051  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:18:08,051  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,051  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,067  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=0, earnings=0}
+2018-01-24 20:18:08,067  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,067  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,082  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 20:18:08,082  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,082  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,098  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=0, earnings=0}
+2018-01-24 20:18:08,098  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,098  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,114  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=0, earnings=0}
+2018-01-24 20:18:08,114  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,114  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,129  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=0, earnings=0}
+2018-01-24 20:18:08,129  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,129  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,145  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 20:18:08,145  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,145  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,160  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=0, earnings=0}
+2018-01-24 20:18:08,160  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,176  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,176  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=0, earnings=0}
+2018-01-24 20:18:08,192  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,192  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,207  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=0, earnings=0}
+2018-01-24 20:18:08,207  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,207  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,207  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 20:18:08,207  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,223  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,223  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=0, earnings=0}
+2018-01-24 20:18:08,239  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,239  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,239  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=0, earnings=0}
+2018-01-24 20:18:08,239  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,254  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,254  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=0, earnings=0}
+2018-01-24 20:18:08,254  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,270  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,270  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=0, earnings=0}
+2018-01-24 20:18:08,270  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,285  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,285  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 20:18:08,285  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,301  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,301  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=0, earnings=0}
+2018-01-24 20:18:08,301  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,301  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,317  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 20:18:08,317  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,317  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,332  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=0, earnings=0}
+2018-01-24 20:18:08,332  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,332  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,348  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=0, earnings=0}
+2018-01-24 20:18:08,348  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,348  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,348  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=0, earnings=0}
+2018-01-24 20:18:08,348  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,364  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,364  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=0, earnings=0}
+2018-01-24 20:18:08,364  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,379  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,379  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=0, earnings=0}
+2018-01-24 20:18:08,379  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,395  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,395  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=0, earnings=0}
+2018-01-24 20:18:08,395  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,410  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,410  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=0, earnings=0}
+2018-01-24 20:18:08,410  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,426  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,426  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=0, earnings=0}
+2018-01-24 20:18:08,426  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,442  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,442  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=0, earnings=0}
+2018-01-24 20:18:08,442  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,457  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,457  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gangster Squad', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.013, budget=0, earnings=0}
+2018-01-24 20:18:08,457  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,473  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,473  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='American History X', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.298, budget=0, earnings=0}
+2018-01-24 20:18:08,473  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,489  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,489  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Crazy, Stupid, Love.', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.545, budget=0, earnings=0}
+2018-01-24 20:18:08,489  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,489  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,504  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Drive', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.202, budget=0, earnings=0}
+2018-01-24 20:18:08,504  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,504  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,520  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Stay', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.285, budget=0, earnings=0}
+2018-01-24 20:18:08,520  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,520  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,520  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Thursday', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.875, budget=0, earnings=0}
+2018-01-24 20:18:08,520  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,541  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,548  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Twelve Monkeys', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.791, budget=0, earnings=0}
+2018-01-24 20:18:08,548  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,552  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:18:08,552  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Life', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.48, budget=0, earnings=0}
+2018-01-24 20:18:08,552  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:18:08,552  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:19:50,212  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:19:50,769  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:19:50,816  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:19:50,816  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:19:50,847  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,645  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 20:20:47,645  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,645  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,661  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=0, earnings=0}
+2018-01-24 20:20:47,661  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,677  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,677  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:20:47,677  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,692  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,708  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=0, earnings=0}
+2018-01-24 20:20:47,708  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,708  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,724  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=0, earnings=0}
+2018-01-24 20:20:47,724  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,739  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,739  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=0, earnings=0}
+2018-01-24 20:20:47,739  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,755  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,755  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=0, earnings=0}
+2018-01-24 20:20:47,755  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,770  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,786  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 20:20:47,786  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,786  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,802  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=0, earnings=0}
+2018-01-24 20:20:47,802  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,802  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,817  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=0, earnings=0}
+2018-01-24 20:20:47,817  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,833  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,833  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=0, earnings=0}
+2018-01-24 20:20:47,833  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,849  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,864  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 20:20:47,864  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,880  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,895  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=0, earnings=0}
+2018-01-24 20:20:47,895  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,911  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,927  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=0, earnings=0}
+2018-01-24 20:20:47,927  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,942  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,958  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=0, earnings=0}
+2018-01-24 20:20:47,958  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,958  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,974  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 20:20:47,974  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,974  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,989  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=0, earnings=0}
+2018-01-24 20:20:47,989  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:47,989  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:47,989  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=0, earnings=0}
+2018-01-24 20:20:47,989  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,005  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,005  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=0, earnings=0}
+2018-01-24 20:20:48,005  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,021  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,021  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=0, earnings=0}
+2018-01-24 20:20:48,052  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,083  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,083  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 20:20:48,083  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,099  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,099  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=0, earnings=0}
+2018-01-24 20:20:48,099  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,114  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,114  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 20:20:48,114  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,130  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,130  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=0, earnings=0}
+2018-01-24 20:20:48,130  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,146  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,146  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=0, earnings=0}
+2018-01-24 20:20:48,146  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,146  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,161  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=0, earnings=0}
+2018-01-24 20:20:48,161  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,161  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,177  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=0, earnings=0}
+2018-01-24 20:20:48,177  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,177  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,192  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=0, earnings=0}
+2018-01-24 20:20:48,192  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,192  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,192  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=0, earnings=0}
+2018-01-24 20:20:48,192  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,208  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,208  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=0, earnings=0}
+2018-01-24 20:20:48,208  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,224  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,224  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=0, earnings=0}
+2018-01-24 20:20:48,224  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:20:48,239  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:20:48,239  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=0, earnings=0}
+2018-01-24 20:20:48,239  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:30,709  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:21:31,365  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:21:31,412  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:21:31,412  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:31,443  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,048  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 20:21:33,048  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,061  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,072  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=839727, earnings=1585634}
+2018-01-24 20:21:33,072  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,080  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,089  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=6000000, earnings=1270522}
+2018-01-24 20:21:33,089  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,099  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,108  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=34000000, earnings=226945087}
+2018-01-24 20:21:33,108  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,123  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,131  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=4500000, earnings=254657864}
+2018-01-24 20:21:33,132  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,140  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,149  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=7000000, earnings=43046590}
+2018-01-24 20:21:33,149  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,158  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,166  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=97000000, earnings=616795600}
+2018-01-24 20:21:33,166  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,174  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,183  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 20:21:33,183  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,193  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,201  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=5000000, earnings=26010864}
+2018-01-24 20:21:33,202  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,209  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,212  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=40000000, earnings=128798265}
+2018-01-24 20:21:33,212  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,212  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,228  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=20000000, earnings=23119442}
+2018-01-24 20:21:33,228  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,228  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,243  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 20:21:33,243  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,243  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,259  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=19500000, earnings=34854990}
+2018-01-24 20:21:33,259  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,259  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,274  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=35000000, earnings=22238696}
+2018-01-24 20:21:33,274  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,274  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,290  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=150000000, earnings=490664238}
+2018-01-24 20:21:33,290  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,290  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,306  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 20:21:33,306  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,321  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,337  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=7500000, earnings=58559042}
+2018-01-24 20:21:33,337  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,337  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,353  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=29000000, earnings=115533700}
+2018-01-24 20:21:33,353  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,353  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,368  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=150000000, earnings=259186707}
+2018-01-24 20:21:33,368  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,368  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,384  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=200000000, earnings=0}
+2018-01-24 20:21:33,384  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,384  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,384  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 20:21:33,384  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,399  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,399  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=25000000, earnings=76181531}
+2018-01-24 20:21:33,399  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,415  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,415  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 20:21:33,415  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,431  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,431  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=46000000, earnings=23737523}
+2018-01-24 20:21:33,431  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,431  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,446  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=10000000, earnings=1799312}
+2018-01-24 20:21:33,446  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,446  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,446  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=26000000, earnings=95577774}
+2018-01-24 20:21:33,446  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,462  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,462  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=50000000, earnings=32017803}
+2018-01-24 20:21:33,462  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,478  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,478  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=185000000, earnings=566652812}
+2018-01-24 20:21:33,478  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,478  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,493  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=79000000, earnings=173013509}
+2018-01-24 20:21:33,493  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,493  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,509  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=250000000, earnings=1236005118}
+2018-01-24 20:21:33,509  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,509  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,524  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=100000000, earnings=525573161}
+2018-01-24 20:21:33,524  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,524  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,524  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=25000000, earnings=170764026}
+2018-01-24 20:21:33,524  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,540  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,540  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gangster Squad', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.013, budget=60000000, earnings=105200903}
+2018-01-24 20:21:33,540  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,556  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,556  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='American History X', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.298, budget=20000000, earnings=23875127}
+2018-01-24 20:21:33,556  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,556  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,556  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Crazy, Stupid, Love.', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.545, budget=50000000, earnings=142851197}
+2018-01-24 20:21:33,556  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,571  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,571  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Drive', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.202, budget=15000000, earnings=76175166}
+2018-01-24 20:21:33,571  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,587  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,587  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Stay', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.285, budget=50000000, earnings=6954636}
+2018-01-24 20:21:33,587  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,587  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,603  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Thursday', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.875, budget=0, earnings=0}
+2018-01-24 20:21:33,603  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,603  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,603  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Twelve Monkeys', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.791, budget=29000001, earnings=168839459}
+2018-01-24 20:21:33,603  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,622  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:21:33,627  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Life', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.48, budget=58000000, earnings=100541806}
+2018-01-24 20:21:33,627  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:21:33,629  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:24,893  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:28:25,716  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:28:25,762  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:28:25,762  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:25,793  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,389  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 20:28:27,389  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,389  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,405  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=839727, earnings=1585634}
+2018-01-24 20:28:27,405  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,405  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,421  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=6000000, earnings=1270522}
+2018-01-24 20:28:27,421  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,436  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,436  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=34000000, earnings=226945087}
+2018-01-24 20:28:27,436  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,452  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,467  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=4500000, earnings=254657864}
+2018-01-24 20:28:27,467  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,467  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,483  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=7000000, earnings=43046590}
+2018-01-24 20:28:27,483  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,483  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,499  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=97000000, earnings=616795600}
+2018-01-24 20:28:27,499  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,499  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,514  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 20:28:27,514  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,530  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,530  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=5000000, earnings=26010864}
+2018-01-24 20:28:27,530  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,546  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,546  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=40000000, earnings=128798265}
+2018-01-24 20:28:27,546  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,608  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,639  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=20000000, earnings=23119442}
+2018-01-24 20:28:27,639  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,639  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,655  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 20:28:27,655  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,655  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,671  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=19500000, earnings=34854990}
+2018-01-24 20:28:27,671  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,686  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,702  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=35000000, earnings=22238696}
+2018-01-24 20:28:27,702  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,702  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,718  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=150000000, earnings=490664238}
+2018-01-24 20:28:27,718  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,733  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,733  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 20:28:27,733  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,749  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,749  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=7500000, earnings=58559042}
+2018-01-24 20:28:27,749  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,764  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,764  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=29000000, earnings=115533700}
+2018-01-24 20:28:27,764  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,764  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,780  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=150000000, earnings=259186707}
+2018-01-24 20:28:27,780  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,780  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,796  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=200000000, earnings=0}
+2018-01-24 20:28:27,796  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,796  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,796  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 20:28:27,796  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,811  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,827  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=25000000, earnings=76181531}
+2018-01-24 20:28:27,827  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,827  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,827  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 20:28:27,843  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,843  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,843  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=46000000, earnings=23737523}
+2018-01-24 20:28:27,843  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,858  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,858  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=10000000, earnings=1799312}
+2018-01-24 20:28:27,858  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,874  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,874  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=26000000, earnings=95577774}
+2018-01-24 20:28:27,874  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,889  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,889  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=50000000, earnings=32017803}
+2018-01-24 20:28:27,889  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,889  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,905  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=185000000, earnings=566652812}
+2018-01-24 20:28:27,905  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,905  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,921  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=79000000, earnings=173013509}
+2018-01-24 20:28:27,921  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,921  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,936  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=250000000, earnings=1236005118}
+2018-01-24 20:28:27,936  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,936  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,952  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=100000000, earnings=525573161}
+2018-01-24 20:28:27,952  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,952  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,968  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=25000000, earnings=170764026}
+2018-01-24 20:28:27,968  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,968  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,983  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gangster Squad', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.013, budget=60000000, earnings=105200903}
+2018-01-24 20:28:27,983  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,983  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,999  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='American History X', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.298, budget=20000000, earnings=23875127}
+2018-01-24 20:28:27,999  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:27,999  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:27,999  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Crazy, Stupid, Love.', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.545, budget=50000000, earnings=142851197}
+2018-01-24 20:28:27,999  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:28,014  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:28,014  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Drive', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.202, budget=15000000, earnings=76175166}
+2018-01-24 20:28:28,014  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:28,030  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:28,030  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Stay', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.285, budget=50000000, earnings=6954636}
+2018-01-24 20:28:28,046  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:28,061  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:28,077  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Thursday', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.875, budget=0, earnings=0}
+2018-01-24 20:28:28,077  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:28,077  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:28,093  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Twelve Monkeys', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.791, budget=29000001, earnings=168839459}
+2018-01-24 20:28:28,093  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:28,093  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:28:28,093  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Life', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.48, budget=58000000, earnings=100541806}
+2018-01-24 20:28:28,093  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:28:28,108  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:18,273  INFO IMDBClientTest:34 - Test imdb for Dunkirk film
+2018-01-24 20:32:19,076  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 20:32:19,107  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=0.0, year='2017', released=2017-07-21, genre='Action, Drama, History', director='Christopher Nolan', actors='Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong', imdbRating=8.2, type='movie', kinopoiskRating=0.0, budget=0, earnings=0}
+2018-01-24 20:32:19,107  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:19,138  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,810  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Seven Sisters', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.6, budget=0, earnings=0}
+2018-01-24 20:32:20,810  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,810  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,826  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Citizen Kane', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.834, budget=839727, earnings=1585634}
+2018-01-24 20:32:20,826  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,841  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,841  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Donnie Darko', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=6000000, earnings=1270522}
+2018-01-24 20:32:20,841  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,857  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,872  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Baby Driver', myRating=6.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.204, budget=34000000, earnings=226945087}
+2018-01-24 20:32:20,872  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,872  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,888  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Get Out', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.899, budget=4500000, earnings=254657864}
+2018-01-24 20:32:20,888  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,904  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,904  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gifted', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.619, budget=7000000, earnings=43046590}
+2018-01-24 20:32:20,904  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,919  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,919  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Logan', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.441, budget=97000000, earnings=616795600}
+2018-01-24 20:32:20,919  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,935  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,935  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Star Wars: Episode VIII - The Last Jedi', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.056, budget=0, earnings=0}
+2018-01-24 20:32:20,935  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,951  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,951  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Elephant Man', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.105, budget=5000000, earnings=26010864}
+2018-01-24 20:32:20,966  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,966  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,966  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Talented Mr. Ripley', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.705, budget=40000000, earnings=128798265}
+2018-01-24 20:32:20,966  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,982  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,982  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Triple 9', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.094, budget=20000000, earnings=23119442}
+2018-01-24 20:32:20,982  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:20,998  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:20,998  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Innamorato pazzo', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.125, budget=0, earnings=0}
+2018-01-24 20:32:20,998  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,013  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,013  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Secret in Their Eyes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.439, budget=19500000, earnings=34854990}
+2018-01-24 20:32:21,013  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,029  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,044  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Empire of the Sun', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.907, budget=35000000, earnings=22238696}
+2018-01-24 20:32:21,044  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,060  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,060  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='War for the Planet of the Apes', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.925, budget=150000000, earnings=490664238}
+2018-01-24 20:32:21,060  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,076  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,091  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Narcos', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.428, budget=0, earnings=0}
+2018-01-24 20:32:21,091  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,107  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,123  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='(500) Days of Summer', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.632, budget=7500000, earnings=58559042}
+2018-01-24 20:32:21,123  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,138  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,138  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Notebook', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.262, budget=29000000, earnings=115533700}
+2018-01-24 20:32:21,138  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,138  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,154  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Blade Runner 2049', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.716, budget=150000000, earnings=259186707}
+2018-01-24 20:32:21,154  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,154  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,169  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Pacific', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.18, budget=200000000, earnings=0}
+2018-01-24 20:32:21,169  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,169  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,169  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Expanse', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.637, budget=0, earnings=0}
+2018-01-24 20:32:21,169  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,185  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,185  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='There Will Be Blood', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.746, budget=25000000, earnings=76181531}
+2018-01-24 20:32:21,185  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,201  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,201  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Captain Fantastic', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.559, budget=0, earnings=0}
+2018-01-24 20:32:21,201  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,216  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,216  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Silence', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.106, budget=46000000, earnings=23737523}
+2018-01-24 20:32:21,216  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,216  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,232  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Free Fire', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.519, budget=10000000, earnings=1799312}
+2018-01-24 20:32:21,232  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,232  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,248  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Red Eye', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.043, budget=26000000, earnings=95577774}
+2018-01-24 20:32:21,248  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,248  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,263  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Sunshine', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.319, budget=50000000, earnings=32017803}
+2018-01-24 20:32:21,263  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,263  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,263  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Kong: Skull Island', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.446, budget=185000000, earnings=566652812}
+2018-01-24 20:32:21,263  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,279  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,279  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cold Mountain', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.851, budget=79000000, earnings=173013509}
+2018-01-24 20:32:21,279  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,294  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,294  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='The Fate of the Furious', myRating=5.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.183, budget=250000000, earnings=1236005118}
+2018-01-24 20:32:21,294  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,310  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,310  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Dunkirk', myRating=10.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.363, budget=100000000, earnings=525573161}
+2018-01-24 20:32:21,310  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,326  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,326  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Cloverfield', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.929, budget=25000000, earnings=170764026}
+2018-01-24 20:32:21,326  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,326  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,341  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Gangster Squad', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.013, budget=60000000, earnings=105200903}
+2018-01-24 20:32:21,341  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,341  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,357  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='American History X', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=8.298, budget=20000000, earnings=23875127}
+2018-01-24 20:32:21,357  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,357  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,357  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Crazy, Stupid, Love.', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.545, budget=50000000, earnings=142851197}
+2018-01-24 20:32:21,357  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,373  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,373  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Drive', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.202, budget=15000000, earnings=76175166}
+2018-01-24 20:32:21,373  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,388  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,388  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Stay', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.285, budget=50000000, earnings=6954636}
+2018-01-24 20:32:21,388  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,404  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,404  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Thursday', myRating=8.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.875, budget=0, earnings=0}
+2018-01-24 20:32:21,404  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,404  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,419  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Twelve Monkeys', myRating=9.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=7.791, budget=29000001, earnings=168839459}
+2018-01-24 20:32:21,419  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,419  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,419  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() Movie{title='Life', myRating=7.0, year='no info', released=2018-01-24, genre='no info', director='no info', actors='no info', imdbRating=0.0, type='no info', kinopoiskRating=6.48, budget=58000000, earnings=100541806}
+2018-01-24 20:32:21,419  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 20:32:21,435  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 20:32:21,928  INFO utils.IMDBRequestMaker:49 - {"Title":"Twelve Monkeys","Year":"1995","Rated":"R","Released":"05 Jan 1996","Runtime":"129 min","Genre":"Mystery, Sci-Fi, Thriller","Director":"Terry Gilliam","Writer":"Chris Marker (film La Jetée), David Webb Peoples (screenplay), Janet Peoples (screenplay)","Actors":"Joseph Melito, Bruce Willis, Jon Seda, Michael Chance","Plot":"In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.","Language":"English, French","Country":"USA","Awards":"Nominated for 2 Oscars. Another 9 wins & 18 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"8.0","imdbVotes":"507,967","imdbID":"tt0114746","Type":"movie","DVD":"31 Mar 1998","BoxOffice":"N/A","Production":"Universal Pictures","Website":"N/A","Response":"True"}
+2018-01-24 21:18:26,791  INFO IMDBClientTest:31 - Test imdb for Dunkirk film
+2018-01-24 21:18:27,651  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-24 21:18:27,713  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDunkirk
+2018-01-24 21:18:27,713  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:27,744  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,345  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieSeven Sisters
+2018-01-24 21:18:29,345  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,345  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,361  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCitizen Kane
+2018-01-24 21:18:29,361  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,376  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,376  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDonnie Darko
+2018-01-24 21:18:29,376  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,392  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,392  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieBaby Driver
+2018-01-24 21:18:29,392  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,408  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,408  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGet Out
+2018-01-24 21:18:29,408  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,423  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,439  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGifted
+2018-01-24 21:18:29,439  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,454  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,470  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieLogan
+2018-01-24 21:18:29,470  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,470  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,501  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieStar Wars: Episode VIII - The Last Jedi
+2018-01-24 21:18:29,501  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,501  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,517  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Elephant Man
+2018-01-24 21:18:29,517  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,533  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,548  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Talented Mr. Ripley
+2018-01-24 21:18:29,548  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,564  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,595  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieTriple 9
+2018-01-24 21:18:29,595  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,611  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,611  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieInnamorato pazzo
+2018-01-24 21:18:29,611  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,626  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,642  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieSecret in Their Eyes
+2018-01-24 21:18:29,642  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,658  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,658  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieEmpire of the Sun
+2018-01-24 21:18:29,658  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,673  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,673  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieWar for the Planet of the Apes
+2018-01-24 21:18:29,673  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,689  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,704  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieNarcos
+2018-01-24 21:18:29,704  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,720  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,720  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movie(500) Days of Summer
+2018-01-24 21:18:29,720  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,736  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,736  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Notebook
+2018-01-24 21:18:29,736  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,751  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,751  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieBlade Runner 2049
+2018-01-24 21:18:29,767  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,767  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,783  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Pacific
+2018-01-24 21:18:29,783  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,783  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,798  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Expanse
+2018-01-24 21:18:29,798  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,798  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,814  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThere Will Be Blood
+2018-01-24 21:18:29,814  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,814  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,829  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCaptain Fantastic
+2018-01-24 21:18:29,829  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,829  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,845  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieSilence
+2018-01-24 21:18:29,845  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,845  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,861  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieFree Fire
+2018-01-24 21:18:29,861  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,861  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,876  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieRed Eye
+2018-01-24 21:18:29,876  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,876  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,892  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieSunshine
+2018-01-24 21:18:29,892  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,892  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,908  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieKong: Skull Island
+2018-01-24 21:18:29,908  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,908  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,923  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCold Mountain
+2018-01-24 21:18:29,923  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,923  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,939  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Fate of the Furious
+2018-01-24 21:18:29,939  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,954  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,954  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDunkirk
+2018-01-24 21:18:29,954  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,970  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,970  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCloverfield
+2018-01-24 21:18:29,970  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,970  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:29,986  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGangster Squad
+2018-01-24 21:18:29,986  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:29,986  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,001  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieAmerican History X
+2018-01-24 21:18:30,001  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:30,001  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,017  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCrazy, Stupid, Love.
+2018-01-24 21:18:30,017  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:30,017  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,017  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDrive
+2018-01-24 21:18:30,017  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:30,033  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,033  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieStay
+2018-01-24 21:18:30,033  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:30,048  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,048  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThursday
+2018-01-24 21:18:30,048  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:30,048  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,064  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieTwelve Monkeys
+2018-01-24 21:18:30,064  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:30,064  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,064  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieLife
+2018-01-24 21:18:30,064  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-24 21:18:30,079  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-24 21:18:30,329  INFO utils.IMDBRequestMaker:49 - {"Title":"Twelve Monkeys","Year":"1995","Rated":"R","Released":"05 Jan 1996","Runtime":"129 min","Genre":"Mystery, Sci-Fi, Thriller","Director":"Terry Gilliam","Writer":"Chris Marker (film La Jetée), David Webb Peoples (screenplay), Janet Peoples (screenplay)","Actors":"Joseph Melito, Bruce Willis, Jon Seda, Michael Chance","Plot":"In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.","Language":"English, French","Country":"USA","Awards":"Nominated for 2 Oscars. Another 9 wins & 18 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"8.0","imdbVotes":"507,967","imdbID":"tt0114746","Type":"movie","DVD":"31 Mar 1998","BoxOffice":"N/A","Production":"Universal Pictures","Website":"N/A","Response":"True"}
+2018-01-24 21:18:30,345  INFO teststeps.DataBaseSteps:30 - verifyTotalMovieCountInDB() with expected count = 41
+2018-01-24 21:18:30,345  INFO model.serviceimpl.MovieServiceImpl:60 - Get total rows count from db
