@@ -34,13 +34,15 @@ public class IMDBClientTest {
         DataBaseSteps dataBaseSteps = new DataBaseSteps();
         dataBaseSteps.verifyAddingFilmToDB(movie);
 
-        List<Movie> movies = ExcelParser.readMessagesFromXLSXFile(40);
+        List<Movie> movies = ExcelParser.readMessagesFromXLSXFile(10);
         System.out.println("movies = " + movies);
 
         movies.forEach(dataBaseSteps::verifyAddingFilmToDB);
 
         System.out.println("imdbSteps.getMovieFromIMDB(\"Twelve Monkeys\") = " + imdbSteps.getMovieFromIMDB("Twelve Monkeys"));
 
-        dataBaseSteps.verifyTotalMovieCountInDB(41);
+        dataBaseSteps.verifyTotalMovieCountInDB(11);
+
+        System.out.println("ExcelParser.findMovieInExcel(\"Gifted\") = " + ExcelParser.findMovieInExcel("Gifted"));
     }
 }
