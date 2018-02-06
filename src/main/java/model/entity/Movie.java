@@ -74,6 +74,8 @@ public class Movie {
         this.type = NO_INFO;
     }
 
+
+
     public Double getMyRating() {
         return myRating;
     }

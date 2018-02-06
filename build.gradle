@@ -1,12 +1,26 @@
 group 'com.lab'
 version '1.0-SNAPSHOT'
 
+buildscript {
+    repositories{
+        maven {url "http://repo.spring.io/libs-snapshot"}
+        mavenLocal()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.8.RELEASE")
+    }
+}
+
 apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
 
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+    maven{url "http://repo.spring.io/libs-snapshot"}
 }
 
 dependencies {
@@ -20,4 +34,9 @@ dependencies {
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
     compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.39'
     compile 'org.apache.poi:poi-ooxml:3.16'
+
+    // spring and tomcat
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-el', version: '9.0.4'
+    compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '9.0.4'
 }
