@@ -5,6 +5,7 @@ import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import model.entity.Movie;
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -16,8 +17,14 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
-public class IMDBRequestMaker {
+public class IMDBRequestMaker implements Constants {
     private static final Logger LOGGER = Logger.getLogger(IMDBRequestMaker.class);
+
+    public Movie getMovieFromIMDB(String title) {
+        title = title.replace(" ","_");
+        Movie movie = getResultFromJson(IMDB_REST_URL + title + API_KEY);
+        return movie;
+    }
 
     public Movie getResultFromJson(String requestUrl) {
         URL url = null;
@@ -48,21 +55,12 @@ public class IMDBRequestMaker {
         JsonObject rootObj = root.getAsJsonObject(); //May be an array, may be an object.
         LOGGER.info(rootObj);
         return getMovie(rootObj);
-
-//        return rootObj.toString();
-
-//        try {
-//            number = format.parse(rootObj.get("result").getAsString());
-//        } catch (ParseException e) {
-//            LOGGER.error(e);
-//        }
-//        return number.doubleValue();
     }
 
     private Movie getMovie(JsonObject rootObj) {
         Movie movie = new Movie();
         if (rootObj.has("Error")) {
-            movie.setTitle(Constants.MOVIE_NOT_FOUND);
+            movie.setTitle(MOVIE_NOT_FOUND);
         } else {
             movie.setTitle(rootObj.get("Title").getAsString());
             movie.setYear(rootObj.get("Year").getAsString());

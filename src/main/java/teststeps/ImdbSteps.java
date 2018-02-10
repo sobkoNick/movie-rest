@@ -26,8 +26,7 @@ public class ImdbSteps implements  Constants{
     }
 
     public Movie getMovieFromIMDB(String title) {
-        title = title.replace(" ","_");
-        Movie movie = imdbRequestMaker.getResultFromJson(IMDB_REST_URL + title + API_KEY);
+        Movie movie = imdbRequestMaker.getMovieFromIMDB(title);
         Assert.assertTrue(!movie.getTitle().contains(Constants.MOVIE_NOT_FOUND), "No such movie was found");
         return movie;
     }

@@ -20,9 +20,10 @@ import java.util.stream.Collectors;
  *
  */
 public class ExcelParser implements Constants {
-    private static final Logger LOGGER = Logger.getLogger(ExcelParser.class);
+    private final Logger LOGGER = Logger.getLogger(ExcelParser.class);
 
-    public static List<Movie> readMessagesFromXLSXFile(int rowsToRead) throws IOException {
+    public List<Movie> readMoviesFromXLSXFile(int rowsToRead) throws IOException {
+        LOGGER.info("Reading movies from excel file");
         List<Movie> movies = new ArrayList<>();
 
         InputStream ExcelFileToRead = new FileInputStream(PATH_TO_EXCEL);
@@ -52,7 +53,7 @@ public class ExcelParser implements Constants {
         return movies.stream().filter(message -> !(message.getTitle() == null)).collect(Collectors.toList());
     }
 
-    public static Movie findMovieInExcel(String titleCell) throws IOException {
+    public Movie findMovieInExcel(String titleCell) throws IOException {
         InputStream ExcelFileToRead = new FileInputStream(PATH_TO_EXCEL);
         XSSFWorkbook wb = new XSSFWorkbook(ExcelFileToRead);
 
@@ -67,7 +68,7 @@ public class ExcelParser implements Constants {
         return new Movie(MOVIE_NOT_FOUND, 0.0, 0.0, 0, 0);
     }
 
-    private static Movie getMovieFromExcel(Row row) {
+    private Movie getMovieFromExcel(Row row) {
         try {
             String title = row.getCell(TITLE_INDEX).getStringCellValue();
             Double myRating = row.getCell(MY_RATING_INDEX).getNumericCellValue();

@@ -13,6 +13,8 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 public class Application {
     public static void main(String[] args) {
+        SettingUpServerData settingUpServerData = new SettingUpServerData();
+        settingUpServerData.setServerDataFromExcelAndImdb(25);
         SpringApplication.run(Application.class, args);
     }
 }

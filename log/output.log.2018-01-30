@@ -1,0 +1,114 @@
+2018-01-30 22:20:23,296  INFO IMDBClientTest:31 - Test imdb for Dunkirk film
+2018-01-30 22:20:23,823  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-30 22:20:23,870  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDunkirk
+2018-01-30 22:20:23,870  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:23,886  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,474  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieSeven Sisters
+2018-01-30 22:20:25,474  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,474  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,490  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCitizen Kane
+2018-01-30 22:20:25,490  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,490  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,506  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDonnie Darko
+2018-01-30 22:20:25,506  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,525  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,528  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieBaby Driver
+2018-01-30 22:20:25,528  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,543  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,543  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGet Out
+2018-01-30 22:20:25,543  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,559  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,559  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGifted
+2018-01-30 22:20:25,559  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,575  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,575  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieLogan
+2018-01-30 22:20:25,575  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,590  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,590  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieStar Wars: Episode VIII - The Last Jedi
+2018-01-30 22:20:25,590  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,606  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,606  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Elephant Man
+2018-01-30 22:20:25,606  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,624  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,628  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Talented Mr. Ripley
+2018-01-30 22:20:25,628  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:20:25,628  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:20:25,690  INFO utils.IMDBRequestMaker:49 - {"Title":"Twelve Monkeys","Year":"1995","Rated":"R","Released":"05 Jan 1996","Runtime":"129 min","Genre":"Mystery, Sci-Fi, Thriller","Director":"Terry Gilliam","Writer":"Chris Marker (film La Jetée), David Webb Peoples (screenplay), Janet Peoples (screenplay)","Actors":"Joseph Melito, Bruce Willis, Jon Seda, Michael Chance","Plot":"In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.","Language":"English, French","Country":"USA","Awards":"Nominated for 2 Oscars. Another 9 wins & 18 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"8.0","imdbVotes":"507,967","imdbID":"tt0114746","Type":"movie","DVD":"31 Mar 1998","BoxOffice":"N/A","Production":"Universal Pictures","Website":"N/A","Response":"True"}
+2018-01-30 22:20:25,690  INFO teststeps.DataBaseSteps:31 - verifyTotalMovieCountInDB() with expected count = 11
+2018-01-30 22:20:25,690  INFO model.serviceimpl.MovieServiceImpl:60 - Get total rows count from db
+2018-01-30 22:31:23,689  INFO IMDBClientTest:31 - Test imdb for Dunkirk film
+2018-01-30 22:31:24,266  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-30 22:31:24,323  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDunkirk
+2018-01-30 22:31:24,324  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:24,364  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,165  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieSeven Sisters
+2018-01-30 22:31:26,166  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,185  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,195  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCitizen Kane
+2018-01-30 22:31:26,195  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,207  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,216  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDonnie Darko
+2018-01-30 22:31:26,216  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,228  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,237  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieBaby Driver
+2018-01-30 22:31:26,238  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,250  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,259  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGet Out
+2018-01-30 22:31:26,259  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,270  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,282  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGifted
+2018-01-30 22:31:26,282  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,291  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,299  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieLogan
+2018-01-30 22:31:26,299  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,311  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,318  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieStar Wars: Episode VIII - The Last Jedi
+2018-01-30 22:31:26,319  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,328  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,335  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Elephant Man
+2018-01-30 22:31:26,335  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,344  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,352  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Talented Mr. Ripley
+2018-01-30 22:31:26,352  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:31:26,361  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:31:26,430  INFO utils.IMDBRequestMaker:49 - {"Title":"Twelve Monkeys","Year":"1995","Rated":"R","Released":"05 Jan 1996","Runtime":"129 min","Genre":"Mystery, Sci-Fi, Thriller","Director":"Terry Gilliam","Writer":"Chris Marker (film La Jetée), David Webb Peoples (screenplay), Janet Peoples (screenplay)","Actors":"Joseph Melito, Bruce Willis, Jon Seda, Michael Chance","Plot":"In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.","Language":"English, French","Country":"USA","Awards":"Nominated for 2 Oscars. Another 9 wins & 18 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"8.0","imdbVotes":"507,967","imdbID":"tt0114746","Type":"movie","DVD":"31 Mar 1998","BoxOffice":"N/A","Production":"Universal Pictures","Website":"N/A","Response":"True"}
+2018-01-30 22:31:26,430  INFO teststeps.DataBaseSteps:31 - verifyTotalMovieCountInDB() with expected count = 11
+2018-01-30 22:31:26,430  INFO model.serviceimpl.MovieServiceImpl:60 - Get total rows count from db
+2018-01-30 22:44:03,049  INFO IMDBClientTest:31 - Test imdb for Dunkirk film
+2018-01-30 22:44:03,626  INFO utils.IMDBRequestMaker:49 - {"Title":"Dunkirk","Year":"2017","Rated":"PG-13","Released":"21 Jul 2017","Runtime":"106 min","Genre":"Action, Drama, History","Director":"Christopher Nolan","Writer":"Christopher Nolan","Actors":"Fionn Whitehead, Damien Bonnard, Aneurin Barnard, Lee Armstrong","Plot":"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.","Language":"English, French, German","Country":"UK, Netherlands, France, USA","Awards":"Nominated for 3 Golden Globes. Another 18 wins & 97 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2YyZjQ0NTEtNzU5MS00NGZkLTg0MTEtYzJmMWY3MWRhZjM2XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.2/10"},{"Source":"Rotten Tomatoes","Value":"92%"},{"Source":"Metacritic","Value":"94/100"}],"Metascore":"94","imdbRating":"8.2","imdbVotes":"291,100","imdbID":"tt5013056","Type":"movie","DVD":"19 Dec 2017","BoxOffice":"$188,042,171","Production":"Warner Bros. Pictures","Website":"http://www.dunkirkmovie.com","Response":"True"}
+2018-01-30 22:44:03,728  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDunkirk
+2018-01-30 22:44:03,729  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:03,768  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,257  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieSeven Sisters
+2018-01-30 22:44:07,258  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,288  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,299  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieCitizen Kane
+2018-01-30 22:44:07,300  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,309  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,319  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieDonnie Darko
+2018-01-30 22:44:07,320  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,330  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,342  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieBaby Driver
+2018-01-30 22:44:07,342  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,355  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,363  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGet Out
+2018-01-30 22:44:07,364  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,372  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,384  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieGifted
+2018-01-30 22:44:07,384  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,408  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,415  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieLogan
+2018-01-30 22:44:07,415  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,423  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,430  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieStar Wars: Episode VIII - The Last Jedi
+2018-01-30 22:44:07,431  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,439  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,445  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Elephant Man
+2018-01-30 22:44:07,445  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,452  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,461  INFO teststeps.DataBaseSteps:23 - verifyAddingFilmToDB() with movieThe Talented Mr. Ripley
+2018-01-30 22:44:07,461  INFO model.serviceimpl.MovieServiceImpl:23 - Add movie service
+2018-01-30 22:44:07,468  INFO model.serviceimpl.MovieServiceImpl:48 - Get movie by title service
+2018-01-30 22:44:07,537  INFO utils.IMDBRequestMaker:49 - {"Title":"Twelve Monkeys","Year":"1995","Rated":"R","Released":"05 Jan 1996","Runtime":"129 min","Genre":"Mystery, Sci-Fi, Thriller","Director":"Terry Gilliam","Writer":"Chris Marker (film La Jetée), David Webb Peoples (screenplay), Janet Peoples (screenplay)","Actors":"Joseph Melito, Bruce Willis, Jon Seda, Michael Chance","Plot":"In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.","Language":"English, French","Country":"USA","Awards":"Nominated for 2 Oscars. Another 9 wins & 18 nominations.","Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BN2Y2OWU4MWMtNmIyMy00YzMyLWI0Y2ItMTcyZDc3MTdmZDU4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"8.0/10"},{"Source":"Rotten Tomatoes","Value":"88%"},{"Source":"Metacritic","Value":"74/100"}],"Metascore":"74","imdbRating":"8.0","imdbVotes":"507,967","imdbID":"tt0114746","Type":"movie","DVD":"31 Mar 1998","BoxOffice":"N/A","Production":"Universal Pictures","Website":"N/A","Response":"True"}
+2018-01-30 22:44:07,540  INFO teststeps.DataBaseSteps:31 - verifyTotalMovieCountInDB() with expected count = 11
+2018-01-30 22:44:07,540  INFO model.serviceimpl.MovieServiceImpl:60 - Get total rows count from db

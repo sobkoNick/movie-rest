@@ -1,5 +1,6 @@
 package model.dao;
 
+import org.apache.log4j.Logger;
 import utils.SQLConstants;
 import utils.SettingUpDB;
 import model.entity.Movie;
@@ -12,8 +13,9 @@ import java.util.List;
  *
  */
 public class MovieDao implements SQLConstants {
-        public void addMovie(Movie movie) throws SQLException {
-            System.out.println("movie = " + movie);
+    private static final Logger LOGGER = Logger.getLogger(MovieDao.class);
+        public void addMovie(Movie movie) {
+            LOGGER.info("Add movie to data base = " + movie);
             try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO movie(title, year, released, genre, " +
@@ -24,7 +26,13 @@ public class MovieDao implements SQLConstants {
                 preparedStatement.setDate(3, Date.valueOf(movie.getReleased()));
                 preparedStatement.setString(4, movie.getGenre());
                 preparedStatement.setString(5, movie.getDirector());
-                preparedStatement.setString(6, movie.getActors().contains("no info") ? "no info" : movie.getActors().substring(0, 60));
+
+                String actors = movie.getActors();
+                if (actors.length() > 58) {
+                    actors = actors.substring(0, 58);
+                }
+                preparedStatement.setString(6, actors);
+
                 preparedStatement.setDouble(7, movie.getImdbRating());
                 preparedStatement.setString(8, movie.getType());
                 preparedStatement.setDouble(9, movie.getMyRating());
@@ -32,10 +40,13 @@ public class MovieDao implements SQLConstants {
                 preparedStatement.setInt(11, movie.getBudget());
                 preparedStatement.setInt(12, movie.getEarnings());
                 preparedStatement.execute();
+            } catch (SQLException e) {
+                e.printStackTrace();
             }
         }
 
         public List<Movie> getAllMovies() throws SQLException {
+            LOGGER.info("Get all movies");
             try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("SELECT * from movie;");
@@ -49,6 +60,7 @@ public class MovieDao implements SQLConstants {
         }
 
         public Movie getMovieByName(String title) throws SQLException {
+            LOGGER.info("Get movie by title " + title);
             try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("SELECT  * from movie WHERE title = ?");
@@ -63,6 +75,7 @@ public class MovieDao implements SQLConstants {
         }
 
         public Integer getTotalRowsCount() throws SQLException {
+            LOGGER.info("Get total rows count in db");
             try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)){
                 SettingUpDB.useMovieDB(connection);
                 PreparedStatement preparedStatement = connection.prepareStatement("SELECT COUNT(*) FROM movie;");
@@ -78,12 +91,16 @@ public class MovieDao implements SQLConstants {
         private Movie getMovieData(ResultSet resultSet) throws SQLException {
             Movie movie = new Movie();
             movie.setTitle(resultSet.getString("title"));
+            movie.setMyRating(resultSet.getDouble("myRating"));
             movie.setYear(resultSet.getString("year"));
             movie.setReleased(resultSet.getDate("released").toLocalDate());
             movie.setGenre(resultSet.getString("genre"));
             movie.setDirector(resultSet.getString("director"));
             movie.setActors(resultSet.getString("actors"));
             movie.setImdbRating(resultSet.getDouble("imdbRating"));
+            movie.setKinopoiskRating(resultSet.getDouble("kinopoiskRating"));
+            movie.setBudget(resultSet.getInt("budget"));
+            movie.setEarnings(resultSet.getInt("earnings"));
             movie.setType(resultSet.getString("type"));
             return movie;
         }

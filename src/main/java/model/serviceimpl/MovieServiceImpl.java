@@ -22,13 +22,8 @@ public class MovieServiceImpl implements MovieService {
     public boolean addMovie(Movie movie) {
         LOGGER.info("Add movie service");
         MovieDao movieDao = new MovieDao();
-        try {
-            movieDao.addMovie(movie);
-            return true;
-        } catch (SQLException e) {
-            LOGGER.error(e.getMessage());
-            return false;
-        }
+        movieDao.addMovie(movie);
+        return true;
     }
 
     @Override
