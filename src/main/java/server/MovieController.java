@@ -1,17 +1,17 @@
 package server;
 
-import model.dao.MovieDao;
 import model.entity.Movie;
 import model.service.MovieService;
 import model.serviceimpl.MovieServiceImpl;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.sql.SQLException;
+import java.util.List;
 
 /**
  *
@@ -37,5 +37,27 @@ public class MovieController {
         }
 
         return new ResponseEntity<>(movie, HttpStatus.OK);
+    }
+
+    // does not work
+    @RequestMapping(value = "/add", method = RequestMethod.POST, consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
+    public ResponseEntity<Movie> addMovie(Movie movie) {
+        MovieService movieService = new MovieServiceImpl();
+        movieService.addMovie(movie);
+
+        Movie movieFromDB = movieService.getMovieByTitle(movie.getTitle());
+        if (movieFromDB.getTitle() == null) {
+            movie = new Movie("Not added", 0.0, 0.0, 0, 0);
+            return new ResponseEntity<>(movie, HttpStatus.NOT_FOUND);
+        }
+
+        return new ResponseEntity<>(movie, HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/all", method = RequestMethod.GET)
+    public ResponseEntity<List<Movie>> getAllMovies() {
+        MovieService movieService = new MovieServiceImpl();
+        List<Movie> movies = movieService.getAllMovies();
+        return new ResponseEntity<>(movies, HttpStatus.OK);
     }
 }
