@@ -5,6 +5,7 @@ import java.time.LocalDate;
 /**
  *
  */
+
 public class Movie {
     String title;
     Double myRating;

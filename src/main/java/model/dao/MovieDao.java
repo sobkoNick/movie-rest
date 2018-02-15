@@ -59,6 +59,24 @@ public class MovieDao implements SQLConstants {
             }
         }
 
+        public List<Movie> getMoviesWithRating(int rating) {
+            LOGGER.info("Get good movies in MovieDao");
+            try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
+                SettingUpDB.useMovieDB(connection);
+                PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM movie WHERE imdbRating > ?;");
+                preparedStatement.setInt(1, rating);
+                ResultSet resultSet = preparedStatement.executeQuery();
+                List<Movie> movies = new ArrayList<>();
+                while (resultSet.next()) {
+                    movies.add(getMovieData(resultSet));
+                }
+                return movies;
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            return new ArrayList<>();
+        }
+
         public Movie getMovieByName(String title) throws SQLException {
             LOGGER.info("Get movie by title " + title);
             try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {

@@ -61,4 +61,11 @@ public class MovieServiceImpl implements MovieService {
         }
         return 0;
     }
+
+    @Override
+    public List<Movie> getMoviesWithRating(int rating) {
+        LOGGER.info("Get movie by rating service");
+        MovieDao movieDao = new MovieDao();
+        return movieDao.getMoviesWithRating(rating);
+    }
 }

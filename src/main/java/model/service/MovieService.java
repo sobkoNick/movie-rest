@@ -9,8 +9,9 @@ import java.util.List;
  *
  */
 public interface MovieService {
-    public boolean addMovie(Movie movie);
-    public List<Movie> getAllMovies();
-    public Movie getMovieByTitle(String title);
-    public Integer getTotalRowsCountFromDB();
+    boolean addMovie(Movie movie);
+    List<Movie> getAllMovies();
+    Movie getMovieByTitle(String title);
+    Integer getTotalRowsCountFromDB();
+    List<Movie> getMoviesWithRating(int rating);
 }

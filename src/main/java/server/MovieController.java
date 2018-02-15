@@ -6,10 +6,7 @@ import model.serviceimpl.MovieServiceImpl;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -40,8 +37,8 @@ public class MovieController {
     }
 
     // does not work
-    @RequestMapping(value = "/add", method = RequestMethod.POST, consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
-    public ResponseEntity<Movie> addMovie(Movie movie) {
+    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    public ResponseEntity<Movie> addMovie(@RequestBody Movie movie) {
         MovieService movieService = new MovieServiceImpl();
         movieService.addMovie(movie);
 
@@ -54,10 +51,30 @@ public class MovieController {
         return new ResponseEntity<>(movie, HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/addtest", method = RequestMethod.POST)
+    public ResponseEntity<Movie> addTest(@RequestBody String movie) {
+        System.out.println("movie = " + movie);
+        return new ResponseEntity<Movie>(new Movie(), HttpStatus.OK);
+    }
+
     @RequestMapping(value = "/all", method = RequestMethod.GET)
     public ResponseEntity<List<Movie>> getAllMovies() {
         MovieService movieService = new MovieServiceImpl();
         List<Movie> movies = movieService.getAllMovies();
+        return new ResponseEntity<>(movies, HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/rating/{number}", method = RequestMethod.GET)
+    public ResponseEntity<List<Movie>> getMoviesByRating(@PathVariable Integer number) {
+        MovieService movieService = new MovieServiceImpl();
+        List<Movie> movies = movieService.getMoviesWithRating(number);
+        return new ResponseEntity<>(movies, HttpStatus.OK);
+    }
+
+    @RequestMapping(value = "/good", method = RequestMethod.GET)
+    public ResponseEntity<List<Movie>> getGoodMoview() {
+        MovieService movieService = new MovieServiceImpl();
+        List<Movie> movies = movieService.getMoviesWithRating(8);
         return new ResponseEntity<>(movies, HttpStatus.OK);
     }
 }
