@@ -51,6 +51,18 @@ public class MovieServiceImpl implements MovieService {
     }
 
     @Override
+    public Integer deleteMovieByTitle(String title) {
+        LOGGER.info("Delete movie by title service");
+        MovieDao movieDao = new MovieDao();
+        try {
+            return movieDao.deleteByName(title);
+        } catch (SQLException e) {
+            LOGGER.error(e.getMessage());
+        }
+        return 0;
+    }
+
+    @Override
     public Integer getTotalRowsCountFromDB() {
         LOGGER.info("Get total rows count from db");
         MovieDao movieDao = new MovieDao();

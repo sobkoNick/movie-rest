@@ -52,7 +52,7 @@ public class IMDBClientTest {
 
     @Test
     public void testingSeverData() {
-//        Application.main(new String[]{}); // start server
+        Application.main(new String[]{}); // start server
 
         SettingUpServerData settingUpServerData = new SettingUpServerData();
         settingUpServerData.setServerDataFromExcelAndImdb(25);

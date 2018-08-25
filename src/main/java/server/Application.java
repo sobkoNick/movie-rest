@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 public class Application {
     public static void main(String[] args) {
         SettingUpServerData settingUpServerData = new SettingUpServerData();
-        settingUpServerData.setServerDataFromExcelAndImdb(25);
+        settingUpServerData.setServerDataFromExcelAndImdb(20);
         SpringApplication.run(Application.class, args);
     }
 }

@@ -4,7 +4,6 @@ import model.entity.Movie;
 import model.service.MovieService;
 import model.serviceimpl.MovieServiceImpl;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -36,8 +35,7 @@ public class MovieController {
         return new ResponseEntity<>(movie, HttpStatus.OK);
     }
 
-    // does not work
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @RequestMapping(value = "/movie", method = RequestMethod.POST)
     public ResponseEntity<Movie> addMovie(@RequestBody Movie movie) {
         MovieService movieService = new MovieServiceImpl();
         movieService.addMovie(movie);
@@ -45,19 +43,29 @@ public class MovieController {
         Movie movieFromDB = movieService.getMovieByTitle(movie.getTitle());
         if (movieFromDB.getTitle() == null) {
             movie = new Movie("Not added", 0.0, 0.0, 0, 0);
-            return new ResponseEntity<>(movie, HttpStatus.NOT_FOUND);
+            return new ResponseEntity<>(movie, HttpStatus.BAD_REQUEST);
         }
-
         return new ResponseEntity<>(movie, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/addtest", method = RequestMethod.POST)
-    public ResponseEntity<Movie> addTest(@RequestBody String movie) {
-        System.out.println("movie = " + movie);
-        return new ResponseEntity<Movie>(new Movie(), HttpStatus.OK);
+    @RequestMapping(value = "/movie", method = RequestMethod.DELETE)
+    public ResponseEntity<String> deleteMovie(@RequestBody Movie movie) {
+        MovieService movieService = new MovieServiceImpl();
+        Integer rowsDeleted = movieService.deleteMovieByTitle(movie.getTitle());
+        if (rowsDeleted == 1) {
+            return new ResponseEntity<>(String.format("Movie '%s' was successfully deleted", movie.getTitle()),
+                    HttpStatus.OK);
+        }
+        return new ResponseEntity<>(String.format("Movie '%s' was not deleted", movie.getTitle()), HttpStatus.NOT_FOUND);
     }
 
-    @RequestMapping(value = "/all", method = RequestMethod.GET)
+//    @RequestMapping(value = "/addtest", method = RequestMethod.POST)
+//    public ResponseEntity<Movie> addTest(@RequestBody String movie) {
+//        System.out.println("movie = " + movie);
+//        return new ResponseEntity<Movie>(new Movie(), HttpStatus.OK);
+//    }
+
+    @RequestMapping(value = "/movies", method = RequestMethod.GET)
     public ResponseEntity<List<Movie>> getAllMovies() {
         MovieService movieService = new MovieServiceImpl();
         List<Movie> movies = movieService.getAllMovies();

@@ -1,35 +1,41 @@
 package model.entity;
 
-import java.time.LocalDate;
-
 /**
  *
  */
 
 public class Movie {
-    String title;
-    Double myRating;
-    String year;
-    LocalDate released;
-    String genre;
-    String director;
-    String actors;
-    Double imdbRating;
-    String type;
-    Double kinopoiskRating;
-    Integer budget;
-    Integer earnings;
+    private String title;
+    private Double myRating;
+    private String year;
+    private String genre;
+    private String director;
+    private String actors;
+    private Double imdbRating;
+    private String type;
+    private Double kinopoiskRating;
+    private Integer budget;
+    private Integer earnings;
 
-    private final String NO_INFO = "no info";
+    private final String NO_INFO = "No info";
 
     public Movie() {
+        this.myRating = 0.0;
+        this.year = NO_INFO;
+        this.genre = NO_INFO;
+        this.director = NO_INFO;
+        this.actors = NO_INFO;
+        this.imdbRating = 0.0;
+        this.type = NO_INFO;
+        this.kinopoiskRating = 0.0;
+        this.budget = 0;
+        this.earnings = 0;
     }
 
-    public Movie(String title, String year, LocalDate released, String genre,
+    public Movie(String title, String year, String genre,
                  String director, String actors, double imdbRating, String type) {
         this.title = title;
         this.year = year;
-        this.released = released;
         this.genre = genre;
         this.director = director;
         this.actors = actors;
@@ -37,13 +43,12 @@ public class Movie {
         this.type = type;
     }
 
-    public Movie(String title, Double myRating, String year, LocalDate released,
+    public Movie(String title, Double myRating, String year,
                  String genre, String director, String actors, Double imdbRating,
                  String type, Double kinopoiskRating, Integer budget, Integer earnings) {
         this.title = title;
         this.myRating = myRating;
         this.year = year;
-        this.released = released;
         this.genre = genre;
         this.director = director;
         this.actors = actors;
@@ -67,14 +72,12 @@ public class Movie {
         this.earnings = earnings;
 
         this.year = NO_INFO;
-        this.released = LocalDate.now();
         this.genre = NO_INFO;
         this.director = NO_INFO;
         this.actors = NO_INFO;
         this.imdbRating = 0.0;
         this.type = NO_INFO;
     }
-
 
 
     public Double getMyRating() {
@@ -129,14 +132,6 @@ public class Movie {
         this.year = year;
     }
 
-    public LocalDate getReleased() {
-        return released;
-    }
-
-    public void setReleased(LocalDate released) {
-        this.released = released;
-    }
-
     public String getGenre() {
         return genre;
     }
@@ -177,13 +172,13 @@ public class Movie {
         this.type = type;
     }
 
+
     @Override
     public String toString() {
         return "Movie{" +
                 "title='" + title + '\'' +
                 ", myRating=" + myRating +
                 ", year='" + year + '\'' +
-                ", released=" + released +
                 ", genre='" + genre + '\'' +
                 ", director='" + director + '\'' +
                 ", actors='" + actors + '\'' +
@@ -192,6 +187,7 @@ public class Movie {
                 ", kinopoiskRating=" + kinopoiskRating +
                 ", budget=" + budget +
                 ", earnings=" + earnings +
+                ", NO_INFO='" + NO_INFO + '\'' +
                 '}';
     }
 }

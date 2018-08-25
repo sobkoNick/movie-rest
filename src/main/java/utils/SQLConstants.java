@@ -15,7 +15,6 @@ public interface SQLConstants {
             "    title varchar(40) not null,\n" +
             "    myRating DOUBLE,\n" +
             "    year varchar(20),\n" +
-            "    released DATE,\n" +
             "    genre varchar(40),\n" +
             "    director varchar(40),\n" +
             "    actors varchar(60),\n" +

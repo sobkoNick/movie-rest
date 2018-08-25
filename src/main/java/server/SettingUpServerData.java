@@ -49,7 +49,6 @@ public class SettingUpServerData {
         Movie newMovie = movie;
         Movie movieFromImdb = imdbRequestMaker.getMovieFromIMDB(movie.getTitle());
         newMovie.setYear(movieFromImdb.getYear());
-        newMovie.setReleased(movieFromImdb.getReleased());
         newMovie.setGenre(movieFromImdb.getGenre());
         newMovie.setDirector(movieFromImdb.getDirector());
         newMovie.setActors(movieFromImdb.getActors());
